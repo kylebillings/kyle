@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kyle Billings</title>
+	<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600
+      });
+		});
+		
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+          <h1>Kyle Billings</h1>
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+	      	<h2>The new <span class="red">kylebillings.com</span></h2>
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+	      	<p style="color: #c0392b">Stay tuned for buttons.</p>
+        </div>
+  </div>
+</body>
+</html>
