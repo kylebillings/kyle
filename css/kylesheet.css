@@ -53,6 +53,13 @@ a:hover {
 	height: 100%;
   line-height: 21px;
 }
+@media (max-width: 380px) {
+  .track {
+    max-width: 20%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}
 .close {
 	float: right;
 }
