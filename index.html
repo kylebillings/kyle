@@ -36,7 +36,17 @@
 
   <link rel="icon" type="image/png" href="images/favicon.png">
   <script type="text/javascript"> 
-  
+  var thedate = new Date(); 
+  var hourofday = thedate.getUTCHours(); 
+  var greeting = "Hello.";
+  function onAir() { 
+    if (hourofday < 10) {
+      greeting = "Good morning";
+    } else if (time < 20) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }
   </script> 
 </head>
 <body>
@@ -48,18 +58,7 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript"> var thedate = new Date(); 
-  var hourofday = thedate.getUTCHours(); 
-  var greeting = "Hello.";
-  function onAir() { 
-    if (hourofday < 10) {
-      greeting = "Good morning";
-    } else if (time < 20) {
-      greeting = "Good day";
-    } else {
-      greeting = "Good evening";
-    } 
-    document.write(greeting);</script>
+  <script type="text/javascript"> document.write(greeting);</script>
   <div class="sidebar-image">
     <img src="" alt="">
   </div>
