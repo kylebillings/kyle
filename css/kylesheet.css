@@ -56,7 +56,6 @@ a:hover {
 @media (max-width: 380px) {
   .track {
     max-width: 20%;
-    overflow-x: scroll;
     white-space: nowrap;
   }
 }
@@ -78,6 +77,7 @@ a:hover {
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 .close {
+  background-color: #fff;
   position: relative;
   display: inline-block;
   width: 30px;
