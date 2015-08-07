@@ -77,13 +77,16 @@ a:hover {
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 .close {
-  background-color: #fff;
+  background-color: #fffffa;
   position: relative;
   display: inline-block;
   width: 30px;
   height: 30px;
   overflow: hidden;
   margin: 15px 20px;
+}
+.white-bg {
+  background-color: #fffffa;
 }
 .close:hover {
 	cursor: pointer;
