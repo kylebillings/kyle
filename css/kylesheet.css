@@ -70,7 +70,12 @@ a:hover {
    background:#fffffa;
    border-top: 1px solid #eee;
 }
-
+#footer a {
+  color: #101626;
+}
+#footer a:hover {
+  color: #5477CF;
+}
 /* IE 6 */
 * html #footer {
    position:absolute;
