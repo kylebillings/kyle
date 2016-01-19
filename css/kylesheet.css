@@ -8,6 +8,11 @@ body {
 	color: #101626;
 	background-color: #fffffa;
 }
+.announcement {
+  text-align: center;
+  color: #fff;
+  background-color: #4967B3;
+}
 .kyle-blue {
 	color: #4967B3;
 }
