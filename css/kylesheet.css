@@ -17,7 +17,7 @@ body {
   background-color: #4967B3;
 }
 .kyle-blue {
-	color: #1EAEDB;
+	color: #33C3F0;
 }
 .kyle-white {
 	color: #FFFFFA;
@@ -48,10 +48,10 @@ h3 {
 }
 a {
 	text-decoration: none;
-	color: #4967B3;
+	color: #33C3F0;
 }
 a:hover {
-	color: #5477CF;
+	color: #1EAEDB;
 }
 .hero-container {
 	display: block;
