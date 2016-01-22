@@ -22,8 +22,14 @@ body {
 .kyle-white {
 	color: #FFFFFA;
 }
+.gone-blue {
+  color: #44b6ff;
+}
 .gray {
   color: #909090;
+}
+.smaller {
+  font-size: .9em
 }
 .shadow {
   border: 1px solid #E0E3E4;
