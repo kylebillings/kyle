@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="76px" height="61px" viewBox="0 0 76 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
-    <title>gone-logo</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path id="path-1" d="M0,0.87 L75.895,0.87 L75.895,61 L0,61 L0,0.87 Z"></path>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="gone-logo" sketch:type="MSLayerGroup">
-            <mask id="mask-2" sketch:name="Clip 2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <g id="Clip-2"></g>
-            <path d="M46.2355,57.5349 C34.2965,57.5349 24.1995,49.4539 21.0625,38.4459 L71.4345,38.4459 C68.2975,49.4539 58.0355,57.5349 46.2355,57.5349 L46.2355,57.5349 Z M20.2945,34.7759 C20.1365,32.9409 20.0545,32.2079 20.0545,30.9939 C20.0545,16.4989 31.7995,4.6429 46.2355,4.6429 C55.0205,4.6429 63.1725,9.0409 68.0125,16.3089 C68.0615,16.3839 68.1445,16.4279 68.2345,16.4279 L71.9105,16.4279 C72.1185,16.4279 72.2535,16.1999 72.1545,16.0179 C66.8345,6.1889 56.9445,0.8699 46.2355,0.8699 C29.7815,0.8699 16.3945,14.4949 16.3945,31.0139 C16.3945,32.2249 16.4655,32.9409 16.6045,34.7759 L3.3825,34.7759 C3.3085,34.7759 3.2385,34.8049 3.1865,34.8579 L0.0795,37.9819 C-0.0905,38.1539 0.0305,38.4459 0.2715,38.4459 L17.2745,38.4459 C20.5065,51.2889 32.2655,60.9999 46.2355,60.9999 C60.5415,60.9999 72.8665,50.9039 75.5415,36.8529 L75.8895,35.1099 C75.9235,34.9369 75.7925,34.7759 75.6175,34.7759 L20.2945,34.7759 Z" id="Fill-1" fill="#303030" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="61" xmlns:xlink="http://www.w3.org/1999/xlink"><title>gone-logo</title><desc>Created with Sketch.</desc><defs><path id="a" d="M0 .87h75.9V61H0V.87z"/></defs><g fill="none"><g><mask id="b"><use xlink:href="#a"/></mask><path fill="#303030" d="M46.24 57.53c-11.94 0-22.04-8.08-25.18-19.08h50.37c-3.13 11-13.4 19.08-25.2 19.08zM20.3 34.78c-.16-1.84-.25-2.57-.25-3.8 0-14.48 11.75-26.34 26.2-26.34C55 4.64 63.16 9.04 68 16.3c.06.08.14.13.23.13h3.68c.22 0 .35-.23.25-.4C66.83 6.18 56.95.86 46.25.86 29.77.87 16.38 14.5 16.38 31c0 1.22.07 1.94.2 3.78H3.38c-.07 0-.14.02-.2.08L.1 37.98c-.17.17-.05.47.2.47h17C20.5 51.3 32.27 61 46.23 61c14.3 0 26.63-10.1 29.3-24.15l.35-1.74c.02-.16-.1-.32-.28-.32H20.3z" mask="url(#b)"/></g></g></svg>
