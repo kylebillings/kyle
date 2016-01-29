@@ -16,6 +16,14 @@ body {
   color: #fff;
   background-color: #4967B3;
 }
+.portfolio-link {
+  margin-top: 20px;
+  float: right;
+}
+.portfolio-link a {
+  color: #33C3F0;
+  border: none;
+}
 .kyle-blue {
 	color: #33C3F0;
 }
