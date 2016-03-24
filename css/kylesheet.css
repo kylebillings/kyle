@@ -66,6 +66,9 @@ a:hover {
 	position: relative;
 	height: 90%;
 }
+.stratifi-container img {
+  border: 1px solid #eee;
+}
 .portfolio-item {
 	width: 100%;
 }
