@@ -8,6 +8,12 @@ body {
 	color: #101626;
 	background-color: #fffffa;
 }
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
 .center {
   text-align: center;
 }
