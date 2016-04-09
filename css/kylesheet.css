@@ -18,13 +18,13 @@ body {
   transition: 1s 0.4s;
 }
 #loading-progress{
-  height:5px;
-  background:red;
+  height:2px;
+  background:#33C3F0;
   position:absolute;
   width:0;
   top:0;
 }
-#progstat{
+#loading-progstat{
   display: none
 }
 .pull-left {

@@ -36,6 +36,7 @@
 <body>
   <div id="loading-overlay">
     <div id="loading-progress"></div>
+    <div id="loading-progstat"></div>
   </div>
   <div class="container">
     <div class="row">
@@ -567,9 +568,9 @@
 ;(function(){
   function id(v){return document.getElementById(v); }
   function loadbar() {
-    var ovrl = id("overlay"),
-        prog = id("progress"),
-        stat = id("progstat"),
+    var ovrl = id("loading-overlay"),
+        prog = id("loading-progress"),
+        stat = id("loading-progstat"),
         img = document.images,
         c = 0;
         tot = img.length;
