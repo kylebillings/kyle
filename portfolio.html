@@ -564,11 +564,12 @@
 
 </script>
 <script>
-  ;(function(){
+;(function(){
   function id(v){return document.getElementById(v); }
   function loadbar() {
-    var ovrl = id("loading-overlay"),
-        prog = id("loading-progress"),
+    var ovrl = id("overlay"),
+        prog = id("progress"),
+        stat = id("progstat"),
         img = document.images,
         c = 0;
         tot = img.length;
@@ -577,6 +578,7 @@
       c += 1;
       var perc = ((100/tot*c) << 0) +"%";
       prog.style.width = perc;
+      stat.innerHTML = "Loading "+ perc;
       if(c===tot) return doneLoading();
     }
     function doneLoading(){

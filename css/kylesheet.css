@@ -8,6 +8,25 @@ body {
 	color: #101626;
 	background-color: #fffffa;
 }
+#loading-overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  transition: 1s 0.4s;
+}
+#loading-progress{
+  height:5px;
+  background:red;
+  position:absolute;
+  width:0;
+  top:0;
+}
+#progstat{
+  display: none
+}
 .pull-left {
   float: left;
 }
