@@ -46,9 +46,17 @@
       </div>
     </div>
   </div>
+  <div style="max-width: 1260px; text-align: center; margin: 0 auto;" >
+    <video width="100%" autoplay loop muted>
+      <source src="video/floating.mp4" type="video/mp4" />
+      <source src="video/floating.m4v" type="video/m4v" />
+      <source src="video/floating.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div class="sidebar-image">
     <img src="images/gone2.png" alt="">
-  </div> 
+  </div>
   <div class="sidebar-image">
     <a target="_blank" href="https://www.berklee.edu/red-room-cafe-939"><img src="images/939.png" alt=""></a>
   </div>
@@ -126,13 +134,13 @@
   </div>
   <div class="sidebar-image">
     <a target="_blank" href="http://www.ekko.fm/"><img src="images/new-browse.png" alt=""></a>
-  </div> 
+  </div>
   <div class="sidebar-image">
     <a target="_blank" href="https://www.dribbble.com/kylebillings"><img src="images/dribbble-debut.gif" alt=""></a>
-  </div> 
+  </div>
   <div class="sidebar-image">
     <a target="_blank" href="http://www.ekko.fm/"><img src="images/ekko1.png" alt=""></a>
-  </div> 
+  </div>
 <!--   <div class="container spacing">
   <div class="row">
     <div class="eight columns offset-by-two">
@@ -142,7 +150,7 @@
 </div> -->
   <div class="sidebar-image">
     <a target="_blank" href="http://www.thegoneapp.com/"><img src="images/gone.png" alt=""></a>
-  </div> 
+  </div>
   <div style="max-width: 1260px; text-align: center; margin: 0 auto;" >
     <video width="100%" autoplay loop muted>
       <source src="video/gonewarehouse.mp4" type="video/mp4" />
@@ -153,16 +161,16 @@
   </div>
   <div class="sidebar-image">
     <a target="_blank" href="http://www.gonesms.com/"><img src="images/smsmockup.png" alt=""></a>
-  </div> 
+  </div>
   <div class="sidebar-image">
     <a target="_blank" href="http://www.waxlimited.com"><img src="images/waxlimited.png" alt=""></a>
-  </div> 
+  </div>
   <div class="sidebar-image">
     <img src="images/returns.png" alt="">
-  </div> 
+  </div>
   <div class="sidebar-image">
     <a target="_blank" href="http://www.relayer.io"><img src="images/relayer.gif" alt=""></a>
-  </div> 
+  </div>
   <div class="container spacing">
     <div class="row">
       <div class="four columns offset-by-four">
@@ -172,10 +180,10 @@
   </div>
   <div class="sidebar-image">
     <img src="images/mockup.png" alt="">
-  </div> 
+  </div>
   <div class="sidebar-image">
     <img src="images/marketplace.png" alt="">
-  </div> 
+  </div>
   <div class="projects-container">
     <div class="row">
     </div>
@@ -239,8 +247,8 @@
     </script>
     <script type="text/javascript">
     var greeting = document.getElementById("greeting");
-    var hourofday = new Date().getHours(); 
-    function timeOfDay() { 
+    var hourofday = new Date().getHours();
+    function timeOfDay() {
       if (hourofday < 10) {
         greeting.innerHTML = "Good Morning!";
       } else if (hourofday < 20) {
@@ -281,7 +289,7 @@
     }
     function doneLoading(){
       ovrl.style.opacity = 0;
-      setTimeout(function(){ 
+      setTimeout(function(){
         ovrl.style.display = "none";
       }, 1200);
     }
@@ -290,7 +298,7 @@
       tImg.onload  = imgLoaded;
       tImg.onerror = imgLoaded;
       tImg.src     = img[i].src;
-    }    
+    }
   }
   document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
