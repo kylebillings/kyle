@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Kyle Billings the Designer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/kylesheet.css">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicons/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="favicons/mstile-310x310.png" />
+  <style>body {background-color: #fff;}</style>
+</head>
+<body>
+  <div id="loading-overlay">
+    <div id="loading-progress"></div>
+    <div id="loading-progstat"></div>
+  </div>
+  <div class="container hero-container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h1>je suis né comme ça</h1>
+        <p><a href="mailto:contact@kylebillings.com">Get in touch with me</a>.</p>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-1.jpeg" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-2.JPG" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-3.JPG" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-4.JPG" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-5.JPG" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-6.JPG" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-7.JPG" alt="">
+  </div>
+  <div class="sidebar-image">
+    <img src="images/kyle-8.JPG" alt="">
+  </div>
+  <div class="space"></div>
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='js/app.js'></script>
+    <script type="text/javascript">
+        function toggle(footer) {
+            if (false == $(footer).is(':visible')) {
+                $(footer).show(0);
+            }
+            else {
+                $(footer).hide(0);
+            }
+        }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42227870-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+;(function(){
+  function id(v){return document.getElementById(v); }
+  function loadbar() {
+    var ovrl = id("loading-overlay"),
+        prog = id("loading-progress"),
+        stat = id("loading-progstat"),
+        img = document.images,
+        c = 0;
+        tot = img.length;
+
+    function imgLoaded(){
+      c += 1;
+      var perc = ((100/tot*c) << 0) +"%";
+      prog.style.width = perc;
+      stat.innerHTML = "Loading "+ perc;
+      if(c===tot) return doneLoading();
+    }
+    function doneLoading(){
+      ovrl.style.opacity = 0;
+      setTimeout(function(){
+        ovrl.style.display = "none";
+      }, 1200);
+    }
+    for(var i=0; i<tot; i++) {
+      var tImg     = new Image();
+      tImg.onload  = imgLoaded;
+      tImg.onerror = imgLoaded;
+      tImg.src     = img[i].src;
+    }
+  }
+  document.addEventListener('DOMContentLoaded', loadbar, false);
+}());
+</script>
+</html>
