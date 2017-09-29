@@ -1,12 +1,47 @@
-@import url(http://fonts.googleapis.com/css?family=Yantramanav:400,100);
+@font-face {
+  font-family: 'A-Serif';
+  src: url('../fonts/A-Light.eot');
+  src: url('../fonts/A-Light.woff2') format('woff2'), 
+       url('../fonts/A-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'A-Serif';
+  src: url('../fonts/A-LightItalic.eot');
+  src: url('../fonts/A-LightItalic.woff2') format('woff2'), 
+       url('../fonts/A-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'A-Serif';
+  src: url('../fonts/A-DemiBold.eot'); 
+  src: url('../fonts/A-DemiBold.woff2') format('woff2'), 
+       url('../fonts/A-DemiBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'A-Serif';
+  src: url('../fonts/A-DemiBoldItalic.eot'); 
+  src: url('../fonts/A-DemiBoldItalic.woff2') format('woff2'), 
+       url('../fonts/A-DemiBoldItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
 html {
 	height: 100%;
 }
 body {
 	height: 100%;
-	font-family: "Helvetica Neue", "Yantramanav";
+	font-family: "A-Serif", "Helvetica Neue", "Yantramanav";
 	color: #101626;
-	background-color: #fffffa;
+	background-color: #ffffff;
 }
 #loading-overlay{
   position:fixed;
@@ -74,13 +109,10 @@ body {
 box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.15);
  */}
 h1, h2 {
-	font-weight: 100;
-}
-h1 {
-	font-size: 64pt;
+	font-weight: 900;
 }
 h3 {
-  font-weight: 200;
+  font-weight: 300;
 }
 a {
 	text-decoration: none;
