@@ -18,18 +18,18 @@
 
 @font-face {
   font-family: 'A-Serif';
-  src: url('../fonts/A-DemiBold.eot'); 
-  src: url('../fonts/A-DemiBold.woff2') format('woff2'), 
-       url('../fonts/A-DemiBold.woff') format('woff');
+  src: url('../fonts/A-Bold.eot'); 
+  src: url('../fonts/A-Bold.woff2') format('woff2'), 
+       url('../fonts/A-Bold.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'A-Serif';
-  src: url('../fonts/A-DemiBoldItalic.eot'); 
-  src: url('../fonts/A-DemiBoldItalic.woff2') format('woff2'), 
-       url('../fonts/A-DemiBoldItalic.woff') format('woff');
+  src: url('../fonts/A-BoldItalic.eot'); 
+  src: url('../fonts/A-BoldItalic.woff2') format('woff2'), 
+       url('../fonts/A-BoldItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }

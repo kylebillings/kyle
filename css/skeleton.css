@@ -301,7 +301,8 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem;
-  list-style-position: outside; }
+  list-style-position: outside; 
+  margin-left: 2rem;}
 
 
 /* Code
