@@ -316,3 +316,11 @@ a:hover {
   padding-top: 15%;
   padding-bottom: 15%;
 }
+.no-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+.no-bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
