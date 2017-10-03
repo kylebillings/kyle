@@ -120,6 +120,9 @@ body {
 .smaller {
   font-size: .9em
 }
+.smallest {
+  font-size: .8em;
+}
 .kyle-shadow {
   border-radius: 4px;
   -webkit-box-shadow: 0px 12px 48px -16px rgba(135,135,135,1);
@@ -335,6 +338,17 @@ a:hover {
 .navbar-space {
   height:48px;
   width: 100%;
+}
+.navbox {
+  display: none;
+}
+@media (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+  .navbox {
+    display: block;
+  }
 }
 .lp-bar {
   position: absolute;
