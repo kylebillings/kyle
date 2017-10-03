@@ -34,14 +34,34 @@
   <meta name="msapplication-square310x310logo" content="favicons/mstile-310x310.png" />
 </head>
 <body>
+
+  <div class="navbar">
+    <div class="container center" style="padding-top:8px;">
+      <div class="three columns">
+        <a href="#intensives"><p class="smaller kyle-gray">Intensives Launch</p></a>
+      </div>
+      <div class="three columns">
+        <a href="#repeatable"><p class="smaller kyle-gray">Repeatable Revenue</p></a>
+      </div>
+      <div class="three columns">
+        <a href="#marketing"><p class="smaller kyle-gray">Marketing</p></a>
+      </div>
+      <div class="three columns">
+        <a href="#personal"><p class="smaller kyle-gray">Personal Work</p></a>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-space"></div>
+
   <div id="loading-overlay">
     <div id="loading-progress"></div>
     <div id="loading-progstat"></div>
   </div>
+
   <div class="container">
     <div class="row">
       <div class="one-half-column portfolio-link">
-        <a href="cv.html">View Resume</a>
+        <!-- <a href="cv.html">View Resume</a> -->
       </div>
     </div>
   </div>
@@ -49,7 +69,8 @@
     <div class="row">
       <div class="one-half column" style="margin-top: 20%">
         <h1>Stories</h1>
-        <p>Take a look at my work and follow along with the challenges and considerations that shape it.</p>
+        <p>Take a look at my work and follow along with the challenges and considerations that shape it.</p><div class="half-space"></div>
+        <a style="border-bottom: none;" href="cv.html" target="_blank"><button>View Resume</button></a>
       </div>
     </div>
   </div>
@@ -119,7 +140,7 @@
       <div class="eight columns offset-by-two">
         <h3 class="no-bottom">Landing Page</h3>
         <p class="smaller kyle-gray"><em>Team: Marketing &amp; Engineering</em></p>
-        <p>Our marketing contractor and I workshopped the copy and design of the landing page. We illustrated how the unique depth of the program, with a heightened feeling of accountability through one-on-one mentorship, brought career aspirations into arms reach for a fraction the investment of in-person bootcamps.</p>
+        <p>Our marketing contractor and I workshopped the copy and design of the landing page. We illustrated how the unique depth of the program, with a heightened feeling of accountability through one-on-one mentorship, brought career aspirations into arms reach for a fraction the investment of in-person bootcamps. To humanize product features, we told the stories of learners from beta cohorts and the mentors that helped them reach their goals.</p>
       </div>
     </div>
     <div class="half-space"></div>
@@ -248,6 +269,17 @@
     <div class="row">
       <div class="eight columns offset-by-two">
         <p>The redesign included a recategorization of the catalog into programming disciplines with descriptions, salary projections, and imagery. The short onboarding experience rearranged the sections and presented Intensives to learners with an interest in building websites.</p>
+      </div>
+    </div>
+  </div>
+  <div class="space"></div>
+  <div class="container">
+    <div class="row">
+      <div class="eight columns offset-by-two">
+        <h3>Upgrades Page</h3>
+        <p>In adding an additional upgrade option to the on-platform experience, we ran the risk of creating marketplace confusion. We developed a page to share a narrative built on key differences in product features and buyer personas, which helped learners choose the offering that best fit their needs.</p>
+        <div class="half-space"></div>
+        <img src="images/stories/offerings.png" alt="" class="img-responsive kyle-shadow">
       </div>
     </div>
   </div>
@@ -396,7 +428,7 @@
   <div class="space"></div> -->
 
   <div class="space"></div>
-  <div class="space"></div>
+  <div class="space" id="personal"></div>
   <div class="container">
     <div class="row">
       <div class="twelve columns center">
@@ -556,5 +588,18 @@
   }
   document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
+</script>
+<script type="text/javascript"> jQuery(function($) {
+
+// The speed of the scroll in milliseconds
+var speed = 1000;
+
+// Find links that are #anchors and scroll to them
+$('a[href*="#"]:not([href="#"])').unbind('click.smoothScroll').bind('click.smoothScroll', function(event) {
+event.preventDefault();
+$('html, body').animate({ scrollTop: $( $(this).attr('href') ).offset().top }, speed);
+});
+
+});
 </script>
 </html>
