@@ -151,7 +151,9 @@ a:hover {
 .hero-container {
 	display: block;
 	position: relative;
-	height: 80%;
+	height: 60vh;
+  min-height:560px;
+  max-height:960px;
 }
 .stratifi-container img {
   border: 1px solid #eee;
