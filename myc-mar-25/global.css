@@ -108,6 +108,7 @@ float: left;
 margin: 0.3%;
 position: relative;
 cursor: pointer;
+padding-top:32.25% !important;
 }
 
 .image img{
@@ -146,6 +147,7 @@ position: relative;
 left: -12.5%;
 margin: 0;
 cursor: default;
+padding-top: 67.48% !important;
 }
 
 .overlay{
@@ -184,6 +186,10 @@ margin-left: 0.5em;
 .index1 p{
 margin-right: 3em;
 margin-left: 3em;
+}
+
+.index52 {
+	padding-top: 72.58% !important;
 }
 
 @media only screen and (max-width: 1200px) {
